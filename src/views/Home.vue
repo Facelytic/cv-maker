@@ -4,15 +4,7 @@
     <div class="mid">
       <Profile></Profile>
     </div>
-   <div class="body">
-      <Content></Content>
-   </div>
-   <div class="body">
-      <Content></Content>
-   </div>
-   <div class="body">
-      <Content></Content>
-   </div>
+    <Content></Content>
   </div>
 </template>
 
@@ -41,11 +33,6 @@ export default {
   border: 1px solid #dedede;
 }
 .mid {
-  display: flex;
-  width: 100%;
-}
-.body {
-  margin: 50px;
   display: flex;
   width: 100%;
 }
